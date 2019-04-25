@@ -1,0 +1,130 @@
+[{
+	"model": "masters.country",
+	"pk": 1,
+	"fields": {
+		"name": "India",
+		"short_name": "AF",
+		"iso_3": null,
+		"phone_code": 93
+	}
+},
+{
+	"model": "masters.state",
+	"pk": 1,
+	"fields": {
+		"name": "Andaman and Nicobar Islands",
+		"country": 1
+	}
+},
+{
+	"model": "masters.state",
+	"pk": 2,
+	"fields": {
+		"name": "Andhra Pradesh",
+		"country": 1
+	}
+},
+{
+	"model": "masters.state",
+	"pk": 3,
+	"fields": {
+		"name": "Arunachal Pradesh",
+		"country": 1
+	}
+},
+{
+	"model": "masters.state",
+	"pk": 4,
+	"fields": {
+		"name": "Assam",
+		"country": 1
+	}
+},
+{
+	"model": "masters.state",
+	"pk": 5,
+	"fields": {
+		"name": "Bihar",
+		"country": 1
+	}
+},
+{
+	"model": "masters.city",
+	"pk": 1,
+	"fields": {
+		"name": "Port Blair",
+		"state": 1
+	}
+},
+{
+	"model": "masters.city",
+	"pk": 2,
+	"fields": {
+		"name": "Havelock Island",
+		"state": 1
+	}
+},
+{
+	"model": "masters.city",
+	"pk": 3,
+	"fields": {
+		"name": "Chilakaluripet",
+		"state": 2
+	}
+},
+{
+	"model": "masters.city",
+	"pk": 4,
+	"fields": {
+		"name": "Tadipatri",
+		"state": 2
+	}
+},
+{
+	"model": "masters.city",
+	"pk": 5,
+	"fields": {
+		"name": "Tezu",
+		"state": 3
+	}
+},
+{
+	"model": "masters.city",
+	"pk": 6,
+	"fields": {
+		"name": "Roing",
+		"state": 3
+	}
+},
+{
+	"model": "masters.city",
+	"pk": 7,
+	"fields": {
+		"name": "Rajkot",
+		"state": 4
+	}
+},
+{
+	"model": "masters.city",
+	"pk": 8,
+	"fields": {
+		"name": "Ahmedabad",
+		"state": 4
+	}
+},
+{
+	"model": "masters.city",
+	"pk": 9,
+	"fields": {
+		"name": "Surat",
+		"state": 5
+	}
+},
+{
+	"model": "masters.city",
+	"pk": 10,
+	"fields": {
+		"name": "Vapi",
+		"state": 5
+	}
+}]

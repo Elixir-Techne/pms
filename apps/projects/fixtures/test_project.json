@@ -1,0 +1,48 @@
+[{
+	"model": "projects.customer",
+	"pk": 1,
+	"fields": {
+		"created_date": "2018-04-12T04:38:33.612Z",
+		"updated_date": "2018-04-12T04:38:33.612Z",
+		"client": 1,
+		"first_name": "mayank",
+		"last_name": "soni",
+		"email": "mdbhadiyadra777@gmail.com",
+		"phone": "9898222623",
+		"country": 1,
+		"state": 1,
+		"city": 1,
+		"zip_code": "380008",
+		"status": "pending"
+	}
+},
+{
+	"model": "projects.project",
+	"pk": 1,
+	"fields": {
+		"created_date": "2018-04-13T17:50:41.409Z",
+		"updated_date": "2018-04-14T16:22:07.754Z",
+		"name": "pms development",
+		"manager": 2,
+		"customer": 1,
+		"description": "testing project",
+		"billing_method": "fixed_cost",
+		"status": "in_progress",
+		"estimation": "12",
+		"start_date": "2018-04-13",
+		"end_date": "2018-04-14"
+	}
+},
+{
+	"model": "projects.employeeproject",
+	"pk": 1,
+	"fields": {
+		"created_date": "2018-04-14T16:55:50.491Z",
+		"updated_date": "2018-04-14T16:55:50.491Z",
+		"employee": 6,
+		"project": 1,
+		"start_date": "2018-03-03",
+		"end_date": "2019-03-03",
+		"allocation": 0.0
+	}
+}]

@@ -1,0 +1,31 @@
+[
+  {
+    "model": "tasks.taskcategory",
+    "pk": 1,
+    "fields": {
+      "created_date": "2018-04-20T13:36:04.947Z",
+      "updated_date": "2018-04-20T13:36:04.947Z",
+      "name": "category1",
+      "description": "this is category1"
+    }
+  },
+  {
+    "model": "tasks.task",
+    "pk": 1,
+    "fields": {
+      "created_date": "2018-04-20T13:49:31.307Z",
+      "updated_date": "2018-04-20T13:49:31.307Z",
+      "project": 1,
+      "title": "task testing",
+      "category": 1,
+      "description": "this is task testing",
+      "creator": 6,
+      "assign": 7,
+      "start_date": "2018-03-03",
+      "end_date": "2018-03-03",
+      "billing_method": "fixed_cost",
+      "status": "in_progress",
+      "effort": "0.00"
+    }
+  }
+]

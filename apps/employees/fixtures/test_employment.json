@@ -1,0 +1,72 @@
+[{
+	"model": "employees.employee",
+	"pk": 6,
+	"fields": {
+		"created_date": "2018-03-28T14:17:50.557Z",
+		"updated_date": "2018-03-28T14:17:50.557Z",
+		"user": 3,
+		"image": "",
+		"gender": "male",
+		"first_name": "akash",
+		"last_name": "patel",
+		"ssn": "ABCd12",
+		"birth_date": "2018-01-01",
+		"address_1": "string",
+		"address_2": "string",
+		"country": 1,
+		"state": 1,
+		"city": 1,
+		"zip_code": "",
+		"phone": "",
+		"status": "pending",
+		"availability": "available"
+	}
+},
+{
+	"model": "employees.employee",
+	"pk": 7,
+	"fields": {
+		"created_date": "2018-03-29T06:06:13.894Z",
+		"updated_date": "2018-03-29T06:06:13.894Z",
+		"user": 2,
+		"image": "",
+		"gender": "male",
+		"first_name": "akash",
+		"last_name": "patel1",
+		"ssn": "ABC123",
+		"birth_date": "2018-03-27",
+		"address_1": "company-1 client-1 shipping address",
+		"address_2": null,
+		"country": 1,
+		"state": 1,
+		"city": 1,
+		"zip_code": "380051",
+		"phone": "9898222623",
+		"status": "pending",
+		"availability": "available"
+	}
+},
+{
+	"model": "employees.employmentcompensation",
+	"pk": 2,
+	"fields": {
+		"created_date": "2018-03-31T07:41:09.195Z",
+		"updated_date": "2018-03-31T07:41:09.195Z",
+		"employee": 7,
+		"company": "pmstest",
+		"location": "ahmedabad",
+		"title": "pms test cases",
+		"start_date": "2018-03-30",
+		"end_date": "2018-03-31",
+		"department": "developement",
+		"compensation_type": "salaried",
+		"employment_type": "full_time",
+		"annual_salary": 999994,
+		"job_duties": "testcase",
+		"flsa_classification": "testcase",
+		"manager": "abc",
+		"direct_reports": "xyz",
+		"is_current": true,
+		"notes": "pms testing only"
+	}
+}]

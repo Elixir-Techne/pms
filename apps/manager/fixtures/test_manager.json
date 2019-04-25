@@ -1,0 +1,46 @@
+[{
+	"model": "manager.manager",
+	"pk": 1,
+	"fields": {
+		"created_date": "2018-04-14T09:31:49.287Z",
+		"updated_date": "2018-04-16T17:19:37.373Z",
+		"user": 2,
+		"image": "profile/manager/index.png",
+		"gender": "male",
+		"first_name": "Sky",
+		"last_name": "Patel",
+		"ssn": "985756",
+		"birth_date": "2018-04-16",
+		"address_1": "A/d 412 hdgevva",
+		"address_2": null,
+		"country": 1,
+		"state": 1,
+		"city": 2,
+		"zip_code": "382225",
+		"phone": "954578522",
+		"status": "pending"
+	}
+},
+{
+	"model": "manager.manager",
+	"pk": 2,
+	"fields": {
+		"created_date": "2018-04-14T16:22:07.706Z",
+		"updated_date": "2018-04-14T16:22:07.706Z",
+		"user": 3,
+		"image": "",
+		"gender": "male",
+		"first_name": null,
+		"last_name": null,
+		"ssn": "",
+		"birth_date": null,
+		"address_1": null,
+		"address_2": null,
+		"country": null,
+		"state": null,
+		"city": null,
+		"zip_code": null,
+		"phone": "",
+		"status": "pending"
+	}
+}]

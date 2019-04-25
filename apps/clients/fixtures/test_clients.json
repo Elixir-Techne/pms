@@ -1,0 +1,18 @@
+[{
+	"model": "clients.client",
+	"pk": 1,
+	"fields": {
+		"created_date": "2018-03-31T08:20:45.896Z",
+		"updated_date": "2018-03-31T08:29:50.763Z",
+		"user": 3,
+		"name": "sky",
+		"trade": "pms",
+		"description": "testing",
+		"email": "mangroliya.akash@gmail.com",
+		"address": "ahmedabad",
+		"contact_first_name": "sky",
+		"contact_last_name": "patel",
+		"phone": "9898222623",
+		"status": "pending"
+	}
+}]
