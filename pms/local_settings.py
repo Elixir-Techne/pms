@@ -13,8 +13,8 @@ DEV_DEBUG = True
 
 MEDIA_URL = 'http://127.0.0.1:8000/media/'
 
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'poojapatel22'
-EMAIL_HOST_PASSWORD = 'blossom22'
+EMAIL_HOST = ''
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
